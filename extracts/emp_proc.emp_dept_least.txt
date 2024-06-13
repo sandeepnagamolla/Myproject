@@ -1,1 +1,4 @@
-
+Research|5|4
+Administration|4|3
+Headquarters|1|1
+Sales|6|2

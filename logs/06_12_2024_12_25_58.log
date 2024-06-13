@@ -1,0 +1,26 @@
+[ 2024-06-12 12:25:58,024 ] 34 root - INFO - SnowflakeProcessing class initiated
+[ 2024-06-12 12:25:58,024 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-12 12:25:58,024 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-12 12:25:59,773 ] 46 root - INFO - connected to snowflake
+[ 2024-06-12 12:25:59,789 ] 59 root - INFO - Read the sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_dml.sql
+[ 2024-06-12 12:25:59,792 ] 66 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:26:00,527 ] 97 root - INFO - extract table: EMP_RAW.employee
+[ 2024-06-12 12:26:00,894 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 10
+[ 2024-06-12 12:26:00,910 ] 74 root - INFO - Read the table as dataframe
+[ 2024-06-12 12:26:00,910 ] 105 root - INFO - Data expoert to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\EMP_RAW.employee.txt
+[ 2024-06-12 12:26:00,910 ] 66 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:26:02,429 ] 97 root - INFO - extract table: EMP_RAW.employee
+[ 2024-06-12 12:26:02,571 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 10
+[ 2024-06-12 12:26:02,571 ] 74 root - INFO - Read the table as dataframe
+[ 2024-06-12 12:26:02,571 ] 105 root - INFO - Data expoert to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\EMP_RAW.employee.txt
+[ 2024-06-12 12:26:02,571 ] 66 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:26:04,165 ] 97 root - INFO - extract table: EMP_RAW.employee
+[ 2024-06-12 12:26:04,259 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 10
+[ 2024-06-12 12:26:04,275 ] 74 root - INFO - Read the table as dataframe
+[ 2024-06-12 12:26:04,275 ] 105 root - INFO - Data expoert to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\EMP_RAW.employee.txt
+[ 2024-06-12 12:26:04,275 ] 66 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:26:04,480 ] 83 root - ERROR - Error in executing DML 002003 (42S02): 01b4f6d6-0001-e206-0000-0005fd12b131: SQL compilation error:
+Object 'DEPENDENT' does not exist or not authorized.
+[ 2024-06-12 12:26:04,480 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-12 12:26:04,527 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-12 12:26:04,578 ] 114 root - INFO - Connection is closed

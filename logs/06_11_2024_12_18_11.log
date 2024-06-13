@@ -1,0 +1,14 @@
+[ 2024-06-11 12:18:11,031 ] 31 root - INFO - Initialized SnowflakeIngestion class.
+[ 2024-06-11 12:18:11,031 ] 107 root - INFO - Starting data ingestion with file: C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\dept_locations.txt into table: DEPT_LOCATIONS
+[ 2024-06-11 12:18:11,031 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 12:18:11,031 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 12:18:12,547 ] 44 root - INFO - Connected to Snowflake.
+[ 2024-06-11 12:18:12,562 ] 58 root - INFO - Read data from C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\dept_locations.txt into DataFrame.
+[ 2024-06-11 12:18:12,703 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 2
+[ 2024-06-11 12:18:12,703 ] 69 root - INFO - columns names of df renamed with table_cloumns
+[ 2024-06-11 12:18:13,265 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 12:18:16,144 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 12:18:16,144 ] 74 root - INFO - Successfully ingested 6 rows into DEPT_LOCATIONS.
+[ 2024-06-11 12:18:16,144 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 12:18:17,573 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 12:18:17,666 ] 87 root - INFO - Connection to Snowflake closed.

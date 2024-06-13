@@ -1,0 +1,23 @@
+[ 2024-06-12 12:51:21,877 ] 34 root - INFO - SnowflakeProcessing class initiated
+[ 2024-06-12 12:51:21,877 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-12 12:51:21,877 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-12 12:51:23,667 ] 46 root - INFO - connected to snowflake
+[ 2024-06-12 12:51:23,714 ] 59 root - INFO - Read the sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_dml.sql
+[ 2024-06-12 12:51:23,714 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:51:25,313 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        1
+[ 2024-06-12 12:51:25,313 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:51:26,597 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                       11
+[ 2024-06-12 12:51:26,597 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:51:27,550 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        4
+[ 2024-06-12 12:51:27,550 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:51:28,276 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        0
+[ 2024-06-12 12:51:28,276 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:51:29,089 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        0
+[ 2024-06-12 12:51:29,089 ] 82 root - INFO - All the DML comands executed successfully
+[ 2024-06-12 12:51:29,104 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-12 12:51:29,104 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session

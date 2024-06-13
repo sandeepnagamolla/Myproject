@@ -1,0 +1,6 @@
+[ 2024-06-12 11:42:31,258 ] 33 root - INFO - SnowflakeProcessing class initiated
+[ 2024-06-12 11:42:31,258 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-12 11:42:31,258 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-12 11:42:33,549 ] 45 root - INFO - connected to snowflake
+[ 2024-06-12 11:42:33,627 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-12 11:42:33,627 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session

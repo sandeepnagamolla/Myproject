@@ -1,0 +1,19 @@
+[ 2024-06-12 12:47:57,362 ] 34 root - INFO - SnowflakeProcessing class initiated
+[ 2024-06-12 12:47:57,362 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-12 12:47:57,385 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-12 12:47:59,094 ] 46 root - INFO - connected to snowflake
+[ 2024-06-12 12:47:59,095 ] 59 root - INFO - Read the sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_dml.sql
+[ 2024-06-12 12:47:59,095 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:48:01,130 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        1
+[ 2024-06-12 12:48:01,130 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:48:06,752 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                       11
+[ 2024-06-12 12:48:06,752 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:48:07,971 ] 78 root - INFO - Read the table as DataFrame:    number of rows inserted
+0                        4
+[ 2024-06-12 12:48:07,971 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-12 12:48:08,080 ] 85 root - ERROR - Error in executing DML 002003 (42S02): 01b4f6ec-0001-e37f-0005-fd12000100aa: SQL compilation error:
+Object 'DEPENDENT' does not exist or not authorized.
+[ 2024-06-12 12:48:08,096 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-12 12:48:08,096 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session

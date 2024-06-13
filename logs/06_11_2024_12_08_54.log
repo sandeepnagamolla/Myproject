@@ -1,0 +1,11 @@
+[ 2024-06-11 12:08:54,535 ] 31 root - INFO - Initialized SnowflakeIngestion class.
+[ 2024-06-11 12:08:54,535 ] 107 root - INFO - Starting data ingestion with file: C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\emp.txt into table: EMPLOYEE
+[ 2024-06-11 12:08:54,535 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 12:08:54,535 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 12:08:56,035 ] 44 root - INFO - Connected to Snowflake.
+[ 2024-06-11 12:08:56,035 ] 58 root - INFO - Read data from C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\emp.txt into DataFrame.
+[ 2024-06-11 12:08:56,238 ] 79 root - ERROR - Error ingesting data: 001003 (42000): 01b4f124-0001-e328-0000-0005fd12c005: SQL compilation error:
+syntax error line 1 at position 0 unexpected 'define'.
+[ 2024-06-11 12:08:56,238 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 12:08:56,285 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 12:08:58,223 ] 87 root - INFO - Connection to Snowflake closed.

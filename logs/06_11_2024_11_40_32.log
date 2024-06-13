@@ -1,0 +1,2 @@
+[ 2024-06-11 11:40:32,625 ] 31 root - INFO - Initialized SnowflakeIngestion class.
+[ 2024-06-11 11:40:32,625 ] 96 root - INFO - Starting data ingestion with file: C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\employee.txt into table: EMPLOYEE

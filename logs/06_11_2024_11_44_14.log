@@ -1,0 +1,12 @@
+[ 2024-06-11 11:44:14,921 ] 31 root - INFO - Initialized SnowflakeIngestion class.
+[ 2024-06-11 11:44:14,921 ] 96 root - INFO - Starting data ingestion with file: C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\employee.txt into table: EMPLOYEE
+[ 2024-06-11 11:44:14,921 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 11:44:14,921 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 11:44:16,526 ] 44 root - INFO - Connected to Snowflake.
+[ 2024-06-11 11:44:16,532 ] 58 root - INFO - Read data from C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\employee.txt into DataFrame.
+[ 2024-06-11 11:44:16,720 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:44:18,159 ] 68 root - ERROR - Error ingesting data: 000904 (42000): 01b4f10c-0001-e203-0000-0005fd125085: SQL compilation error: error line 1 at position 83
+invalid identifier '"0"'
+[ 2024-06-11 11:44:18,159 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 11:44:18,190 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 11:44:18,237 ] 76 root - INFO - Connection to Snowflake closed.

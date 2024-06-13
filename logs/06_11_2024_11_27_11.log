@@ -1,0 +1,98 @@
+[ 2024-06-11 11:27:11,949 ] 30 root - INFO - Initialized the ConnectSnowflake class
+[ 2024-06-11 11:27:11,949 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 11:27:11,949 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 11:27:13,711 ] 43 root - INFO - Connected to Snowflake
+[ 2024-06-11 11:27:13,725 ] 58 root - INFO - Read sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_ddl.sql
+[ 2024-06-11 11:27:13,729 ] 66 root - INFO - Executing SQL command: create table if not exists emp_raw.employee (
+	fname varchar(30),
+	minit char(1),
+	lname varchar(30),
+	ssn char(9),
+	bdate date,
+	address varchar(30),
+	sex char(1),
+	salary decimal(10,2),
+	super_ssn char(9),
+	dno int
+)
+[ 2024-06-11 11:27:13,895 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:13,895 ] 66 root - INFO - Executing SQL command: create table if not exists emp_raw.department(
+	dname varchar(30),
+	dnumber smallint,
+	mgr_ssn char(9),
+	mgr_start_date date
+)
+[ 2024-06-11 11:27:13,998 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:13,998 ] 66 root - INFO - Executing SQL command: create table if not exists emp_raw.dependent(
+	essn char(9),
+	dependent_name varchar(30),
+	sex char(1),
+	bdate date,
+	relationship varchar(20)
+)
+[ 2024-06-11 11:27:14,074 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:14,074 ] 66 root - INFO - Executing SQL command: create table if not exists emp_raw.dept_locations(
+	dnumber smallint,
+	dlocation varchar(20)
+)
+[ 2024-06-11 11:27:14,178 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:14,178 ] 66 root - INFO - Executing SQL command: create table if not exists emp_raw.project(
+	pname varchar(30),
+	pnumber smallint,
+	plocation varchar(30),
+	dnum smallint
+)
+[ 2024-06-11 11:27:14,289 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:14,289 ] 66 root - INFO - Executing SQL command: create table if not exists works_on(
+	essn char(9),
+	pno smallint,
+	hours decimal(4,2)
+)
+[ 2024-06-11 11:27:14,675 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:14,675 ] 66 root - INFO - Executing SQL command: create table if not exists emp_proc.emp_sal_greater_mnger(
+Essn char(9),
+Salary decimal(10,2),
+super_ssn char(9),
+SSalary decimal(10,2)
+)
+[ 2024-06-11 11:27:14,847 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:14,847 ] 66 root - INFO - Executing SQL command: create table if not exists emp_proc.emp_project_dept(
+essn char(9),
+pname varchar(30),
+emp_dept_name varchar(30),
+proj_dept_name varchar(30)
+)
+[ 2024-06-11 11:27:15,083 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:15,083 ] 66 root - INFO - Executing SQL command: create table if not exists emp_proc.emp_tot_hrs_spent(
+essn char(9),
+department_name varchar(30),
+pno smallint,
+total_hours_spent int
+)
+[ 2024-06-11 11:27:15,398 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:27:15,398 ] 66 root - INFO - Executing SQL command: create table if not exists emp_proc.emp_full_details(
+essn char(9),
+fname varchar(30),
+minit char(1),
+lname varchar(30),
+bdate date,
+address varchar(30),
+sex char(1),
+salary decimal(10,2),
+super_ssn char(9),
+dno int,
+dname varchar(30),
+dlocation varchar(20),
+pname varchar(30),
+pnumber smallint,
+plocation varchar(30),
+hours decimal(4,2),
+dependent_name varchar(30),
+sex char(1),
+relationship varchar(20)
+)
+[ 2024-06-11 11:27:15,792 ] 73 root - ERROR - Error executing DDL statements: 002025 (42S21): 01b4f0fb-0001-e206-0000-0005fd12b061: SQL compilation error:
+duplicate column name 'SEX'
+[ 2024-06-11 11:27:15,792 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 11:27:15,839 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 11:27:15,917 ] 81 root - INFO - Connection to Snowflake closed.

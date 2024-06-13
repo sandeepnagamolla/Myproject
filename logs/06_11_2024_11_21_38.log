@@ -1,0 +1,22 @@
+[ 2024-06-11 11:21:38,034 ] 30 root - INFO - Initialized the ConnectSnowflake class
+[ 2024-06-11 11:21:38,034 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 11:21:38,034 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 11:21:39,452 ] 43 root - INFO - Connected to Snowflake
+[ 2024-06-11 11:21:39,536 ] 58 root - INFO - Read sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_ddl.sql
+[ 2024-06-11 11:21:39,541 ] 66 root - INFO - Executing SQL command: /*create table emp_raw.employee (
+	fname varchar(30),
+	minit char(1),
+	lname varchar(30),
+	ssn char(9),
+	bdate date,
+	address varchar(30),
+	sex char(1),
+	salary decimal(10,2),
+	super_ssn char(9),
+	dno int
+)
+[ 2024-06-11 11:21:39,646 ] 73 root - ERROR - Error executing DDL statements: 001003 (42000): 01b4f0f5-0001-e1ff-0000-0005fd122081: SQL compilation error:
+parse error line 12 at position 1 near '<EOF>'.
+[ 2024-06-11 11:21:39,646 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 11:21:39,712 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 11:21:39,764 ] 81 root - INFO - Connection to Snowflake closed.

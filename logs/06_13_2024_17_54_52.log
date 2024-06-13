@@ -1,0 +1,24 @@
+[ 2024-06-13 17:54:52,053 ] 34 root - INFO - SnowflakeProcessing class initiated
+[ 2024-06-13 17:54:52,053 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-13 17:54:52,053 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-13 17:54:53,067 ] 46 root - INFO - connected to snowflake
+[ 2024-06-13 17:54:53,068 ] 59 root - INFO - Read the sql commands from C:\Users\Sandeep\OneDrive\Desktop\Project\ddl\emp_dml.sql
+[ 2024-06-13 17:54:53,070 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-13 17:54:53,422 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-13 17:54:54,172 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-13 17:54:54,563 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-13 17:54:54,955 ] 68 root - INFO - Executing each sql command {command}
+[ 2024-06-13 17:54:56,124 ] 79 root - INFO - All the DML comands executed successfully
+[ 2024-06-13 17:54:56,442 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-13 17:54:56,457 ] 98 root - INFO - Data extracted to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\EMP_PROC.EMP_SAL_GREATER_MNGER.txt
+[ 2024-06-13 17:54:56,771 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 4
+[ 2024-06-13 17:54:56,771 ] 98 root - INFO - Data extracted to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\emp_proc.emp_dept_least.txt
+[ 2024-06-13 17:54:56,944 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 11
+[ 2024-06-13 17:54:56,959 ] 98 root - INFO - Data extracted to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\emp_proc.emp_project_dept.txt
+[ 2024-06-13 17:54:57,055 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 0
+[ 2024-06-13 17:54:57,060 ] 98 root - INFO - Data extracted to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\emp_proc.emp_full_details.txt
+[ 2024-06-13 17:54:57,238 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 26
+[ 2024-06-13 17:54:57,238 ] 98 root - INFO - Data extracted to C:\Users\Sandeep\OneDrive\Desktop\Project\extracts\emp_proc.emp_tot_hrs_spent.txt
+[ 2024-06-13 17:54:57,238 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-13 17:54:57,285 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-13 17:54:57,332 ] 107 root - INFO - Connection is closed

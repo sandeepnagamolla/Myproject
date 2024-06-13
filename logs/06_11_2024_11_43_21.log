@@ -1,0 +1,12 @@
+[ 2024-06-11 11:43:21,577 ] 31 root - INFO - Initialized SnowflakeIngestion class.
+[ 2024-06-11 11:43:21,577 ] 96 root - INFO - Starting data ingestion with file: C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\employee.txt into table: EMPLOYEE
+[ 2024-06-11 11:43:21,577 ] 399 snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 3.10.1, Python Version: 3.12.0, Platform: Windows-11-10.0.22631-SP0
+[ 2024-06-11 11:43:21,577 ] 1239 snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[ 2024-06-11 11:43:22,987 ] 44 root - INFO - Connected to Snowflake.
+[ 2024-06-11 11:43:23,004 ] 58 root - INFO - Read data from C:\Users\Sandeep\OneDrive\Desktop\Project\inbound\employee.txt into DataFrame.
+[ 2024-06-11 11:43:23,286 ] 1149 snowflake.connector.cursor - INFO - Number of results in first chunk: 1
+[ 2024-06-11 11:43:25,072 ] 68 root - ERROR - Error ingesting data: 001757 (42601): 01b4f10b-0001-e206-0000-0005fd12b071: SQL compilation error:
+Table 'EMPLOYEE' does not exist
+[ 2024-06-11 11:43:25,072 ] 762 snowflake.connector.connection - INFO - closed
+[ 2024-06-11 11:43:25,112 ] 768 snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
+[ 2024-06-11 11:43:25,186 ] 76 root - INFO - Connection to Snowflake closed.
